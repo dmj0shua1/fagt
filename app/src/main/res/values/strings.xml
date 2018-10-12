@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">FAGT</string>
+
+    <string-array name="qualitysetting">
+        <item>Smooth</item>
+        <item>Balanced</item>
+        <item>HD</item>
+        <item>HDR</item>
+    </string-array>
+
+    <string-array name="fps">
+        <item>30fps</item>
+        <item>40fps</item>
+        <item>60fps</item>
+    </string-array>
+
+    <string-array name="resolution">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+        <item>Ultra (Tablets)</item>
+    </string-array>
+
+    <string-array name="colorstyle">
+        <item>Classic</item>
+        <item>Colorful</item>
+        <item>Realistic</item>
+        <item>Soft</item>
+        <item>Film</item>
+    </string-array>
+
+    <string-array name="materialquality">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
+    <string-array name="shadowquality">
+        <item>None</item>
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+        <item>Ultra</item>
+    </string-array>
+
+    <string-array name="shadowdistance">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+        <item>Ultra</item>
+        <item>Extreme</item>
+    </string-array>
+
+    <string-array name="msaa">
+        <item>None</item>
+        <item>1x</item>
+        <item>2x</item>
+        <item>4x</item>
+    </string-array>
+
+    <string-array name="lightfx">
+        <item>None</item>
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
+    <string-array name="graphapi">
+        <item>Default</item>
+        <item>OpenGL 2.0</item>
+        <item>OpenGL 3.1</item>
+        <item>Vulkan</item>
+    </string-array>
+
+    <string-array name="texturequality">
+        <item>Low</item>
+        <item>High</item>
+    </string-array>
+
+    <string-array name="pubgmversion">
+        <item>0.8.5 En</item>
+        <item>0.10.9 Ch</item>
+        <item>0.8.5 Kr</item>
+        <item>0.9.0 En beta</item>
+    </string-array>
+    <string name="title_activity_about">about</string>
+    <string name="intro_text">
+         "\nBattlegrounds Advanced Graphics Tool (BAGT) is developed by JD Ros for people who wants to fully customize and optimize PUBG Mobile's graphics.\n\n"
+
+        "Let's talk about the meaning of every single graphic option in this tool.\n\n"
+    </string>
+    <string name="graphics_quality_text">
+        "GRAPHICS QUALITY\n"
+        "This defines the quality of the graphics in general, if you're wondering why Shadows are disabled on the Smooth setting."
+        "That's because the game actually doesn't support Shadows on that particular option to maintain Smoothness.\n\n"
+
+    </string>
+
+    <string name="resolution_text">
+        "RESOLUTION\n"
+        "This resolution means game resolution, not your screen's resolution. It doesn't matter what resolution your screen uses, you are free"
+        "to choose which game resolution you'd want to use. Lower resolution gives you better performance but a little bit disadvantage on the gameplay."
+        "So I recommend only going down to Low resolution if and only if you have the potatoest phone ever. Oh by the way, the Ultra resolution is only"
+        "recommended for tablet users because that resolution makes the buttons a bit smaller than normal.\n\n"
+        </string>
+
+    <string name="colorstyle_text">
+        "COLOR STYLE\n"
+        "There are 4 color styles on PUBG Mobile and it really comes down to preference so I guess you just have to test them all. Be aware though"
+        "that the Realistic color style requires a costs a little more performance than the other 3 color styles.\n\n"
+    </string>
+    <string name="fps_text">
+        "FRAME RATE\n"
+        "You might be wondering, why put a 30fps option if everyone will choose the 60fps option anyway. Well, not all phones are capable"
+        "of running in 60fps because it's too weak. So you might wanna stick to lower fps if your phone can't handle it, it's gonna save"
+        "you some battery, trust me.\n\n"
+    </string>
+    <string name="lightfx_text">
+        "LIGHT EFFECTS\n"
+        "I only recommend turning this on for aesthetic purposes and if you have a pretty good phone, because truthfully it has no gameplay advantage"
+        "but costs performance so better turn this off if you have a weak phone.\n"
+        "Be aware though that some devices do not support LightFX on PUBG Mobile.\n\n"
+    </string>
+    <string name="shadowquality_text">
+        "SHADOW QUALITY\n"
+        "You can change the crispiness of the shadow here, but at a performance cost. I recommend turning this off so you could see enemies better"
+        ",they can't hide in the shadows if there aren't any right?\n\n"
+    </string>
+    <string name="shadowdistance_text">
+        "SHADOW RENDER DISTANCE\n"
+        "Wanna see the shadow from afar? Turn this option up, but keep in mind that this option requires a lot of power. I recommend going Medium if "
+        "you only turned this on for Aesthetic purposes.\n\n"
+    </string>
+    <string name="renderquality_text">
+        "RENDERING QUALITY\n"
+        "This option also requires a bit more power if you went High but it will make the shaders and textures render a little bit better. I recommend"
+        "Medium if you wanna use shadows on Midrange phones.\n\n"
+    </string>
+    <string name="msaa_text">
+        "ANTI-ALIASING (MSAA)\n"
+        "Make sure NOT to turn on Force 4x Msaa on Developer options because that option is basically the same as this one. So what is this option? Turning this on "
+        "will make the edges smoother. I recommend 4x for competitiveness but it might cost performance. Might as well go with 2x if you have a Midrange phone.\n\n"
+    </string>
+    <string name="graphicsapi_text">
+        "GRAPHICS API \n"
+        "Graphics Api is a bit tricky to explain, but to make it short, Vulkan renders graphics better but costs performance and is only available for Android 7.0 and above."
+        "OpenGL 2.0 is the most performance efficient option because it doesn't take the full graphics processing power of your device. OpenGL 3.1 is kind of in the middle but is only available"
+        "for Android 5.0 and above.\n\n"
+
+    </string>
+    <string name="texturequality_text">
+        "TEXTURE QUALITY \n"
+        "If you set this to low, you will have less detailed textures and will increase performance. Setting it to high (which is the default) will make the textures look as detailed as they should be.\n\n"
+    </string>
+    <string name="outro_text">
+        "That's it! Thank you for downloading my app and enjoy your Chicken Dinners!\n\n"
+
+        "And before I forget, Special Thanks to Warli Alcoriza for helping me on this one :)\n\n\n"
+    </string>
+
+
+    <string name="action_settings">Settings</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

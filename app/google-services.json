@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1034611042311",
+    "firebase_url": "https://admob-app-id-3926576548.firebaseio.com",
+    "project_id": "admob-app-id-3926576548",
+    "storage_bucket": "admob-app-id-3926576548.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034611042311:android:a8cf46e908c92a58",
+        "android_client_info": {
+          "package_name": "jediarstudios.fagt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034611042311-3e8q0letr48v3grsftoebmo2ilontbr0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo9hg_awghzvKbd8HyBPQEHmjprWCaSNg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034611042311:android:c49ec05f230bb214",
+        "android_client_info": {
+          "package_name": "jediarstudios.pubgmct"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034611042311-3e8q0letr48v3grsftoebmo2ilontbr0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo9hg_awghzvKbd8HyBPQEHmjprWCaSNg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

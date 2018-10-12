@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".usefullinks">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:elevation="20dp"
+            android:isScrollContainer="true"
+            android:paddingBottom="20dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <Button
+                android:id="@+id/btnYouTube"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="31dp"
+                android:background="@drawable/ic_video" />
+
+            <Button
+                android:id="@+id/btnWeaponsGuide"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignBottom="@+id/btnYouTube"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/ic_guide" />
+
+            <Button
+                android:id="@+id/btnBugReport"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/btnYouTube"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/ic_bugreport" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView13"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/googlesansregular"
+                android:text="Weapon guide"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/btnBugReport"
+                android:layout_alignTop="@+id/textView11"
+                android:layout_marginStart="-18dp"
+                android:fontFamily="@font/googlesansregular"
+                android:text="Bug report"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="85dp"
+                android:fontFamily="@font/googlesansregular"
+                android:text="My Channel"
+                android:textAlignment="center" />
+
+        </RelativeLayout>
+
+        <include
+            layout="@layout/layout_config_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-50dp"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-6773163192158273/5403309742" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
